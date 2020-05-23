@@ -34,10 +34,6 @@ libspf2_la_SOURCES	= \
 	spf_utils.c \
 	spf_win32.c
 
-libspf2_la_LIBADD	= $(top_builddir)/src/libreplace/libreplace.la
-
-
-
 libspf2_la_LDFLAGS	= -version-info 3:0:1
 
 # Copied from the libtool info file:

@@ -4,5 +4,5 @@ AUTOMAKE_OPTIONS = foreign
 # Attempt to disable parallel processing.
 .NOTPARALLEL:
 .NO_PARALLEL:
-SUBDIRS =	include libreplace libspf2 spfquery spftest spfd spf_example
+SUBDIRS =	include libspf2 spfquery spftest spfd spf_example
 TARGETS =
