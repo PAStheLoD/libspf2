@@ -36,14 +36,7 @@
 # include <netinet/in.h>		/* inet_ functions / structs */
 #endif
 #ifdef HAVE_ARPA_NAMESER_H
-# ifdef HAVE_NS_TYPE
-#  include <arpa/nameser.h>		/* DNS HEADER struct */
-# else
-/* looks like they have bind4/8 include files, use bind9 */
-#  define HAVE_BIND8
-#  include "../libreplace/arpa_nameser.h"
-#  define HAVE_NS_TYPE 1		/* we have it now		*/
-# endif
+# include <arpa/nameser.h>		/* DNS HEADER struct */
 #endif
 #ifdef HAVE_ARPA_INET_H
 # include <arpa/inet.h>			/* in_addr struct */

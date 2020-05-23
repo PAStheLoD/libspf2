@@ -13746,7 +13746,7 @@ case " $LIBOBJS " in
 esac
 
 
-ac_config_files="$ac_config_files Makefile Doxyfile src/Makefile src/include/Makefile src/libreplace/Makefile src/libspf2/Makefile src/spfquery/Makefile src/spftest/Makefile src/spfd/Makefile src/spf_example/Makefile"
+ac_config_files="$ac_config_files Makefile Doxyfile src/Makefile src/include/Makefile src/libspf2/Makefile src/spfquery/Makefile src/spftest/Makefile src/spfd/Makefile src/spf_example/Makefile"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -14751,7 +14751,6 @@ do
     "Doxyfile") CONFIG_FILES="$CONFIG_FILES Doxyfile" ;;
     "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
     "src/include/Makefile") CONFIG_FILES="$CONFIG_FILES src/include/Makefile" ;;
-    "src/libreplace/Makefile") CONFIG_FILES="$CONFIG_FILES src/libreplace/Makefile" ;;
     "src/libspf2/Makefile") CONFIG_FILES="$CONFIG_FILES src/libspf2/Makefile" ;;
     "src/spfquery/Makefile") CONFIG_FILES="$CONFIG_FILES src/spfquery/Makefile" ;;
     "src/spftest/Makefile") CONFIG_FILES="$CONFIG_FILES src/spftest/Makefile" ;;

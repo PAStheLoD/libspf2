@@ -46,7 +46,6 @@
 
 #define SPF_TEST_VERSION  "3.0"
 
-#include "libreplace/win32_config.h"
 
 #ifdef HAVE_CONFIG_H
 # include "config.h"
@@ -88,12 +87,8 @@
 # include <arpa/inet.h>	/* in_addr struct */
 #endif
 
-#ifdef HAVE_GETOPT_LONG_ONLY
 #define _GNU_SOURCE
 #include <getopt.h>
-#else
-#include "libreplace/getopt.h"
-#endif
 
 #ifdef _WIN32
 #include "spf_win32.h"

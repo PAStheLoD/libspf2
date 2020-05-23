@@ -88,12 +88,8 @@
 #include <grp.h>
 #endif
 
-#ifdef HAVE_GETOPT_LONG_ONLY
 #define _GNU_SOURCE
 #include <getopt.h>
-#else
-#include "libreplace/getopt.h"
-#endif
 
 #include <unistd.h>
 #include <netdb.h>

@@ -69,8 +69,7 @@ am__base_list = \
   sed '$$!N;$$!N;$$!N;$$!N;s/\n/ /g'
 am__installdirs = "$(DESTDIR)$(libdir)"
 LTLIBRARIES = $(lib_LTLIBRARIES)
-libspf2_la_DEPENDENCIES =  \
-	$(top_builddir)/src/libreplace/libreplace.la
+libspf2_la_DEPENDENCIES =  
 am_libspf2_la_OBJECTS = spf_compile.lo spf_dns.lo spf_dns_cache.lo \
 	spf_dns_null.lo spf_dns_resolv.lo spf_dns_rr.lo \
 	spf_dns_test.lo spf_dns_windns.lo spf_dns_zone.lo \
@@ -289,7 +288,7 @@ libspf2_la_SOURCES = \
 	spf_utils.c \
 	spf_win32.c
 
-libspf2_la_LIBADD = $(top_builddir)/src/libreplace/libreplace.la
+libspf2_la_LIBADD = 
 libspf2_la_LDFLAGS = -version-info 3:0:1
 all: all-recursive
 
